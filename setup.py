@@ -20,7 +20,7 @@ setuptools.setup(
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com:coelhosilva/raindrops.git",
+    url="https://github.com/coelhosilva/raindrops.git",
     download_url="https://github.com/coelhosilva/raindrops/archive/refs/tags/v0.0.1.tar.gz",
     packages=setuptools.find_packages(),
     keywordsList=['cloud computing', 'cloud functions', 'build tools'],
