@@ -1,0 +1,15 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - test-function-build
+  - --entry-point=main
+  - --timeout=540
+  - --runtime=python39
+  - --region=us-east1
+  - --source=.
+  - --trigger-topic=topic.name
+  - --env-vars-file=env.yaml
+  - --stage-bucket=source-bucket
