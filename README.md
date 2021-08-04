@@ -17,7 +17,7 @@ Or directly from GitHub:
 
 ## Quickstart
 
-Initiating an HTTP Cloud Function from boilerplate code:
+Initializing an HTTP Cloud Function from boilerplate code:
 
 ```
 raindrops --init http
