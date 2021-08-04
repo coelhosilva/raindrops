@@ -1,5 +1,7 @@
 # raindrops
 
+[![PyPI version](https://badge.fury.io/py/raindrops.svg)](https://badge.fury.io/py/raindrops)
+
 `raindrops` is a command-line utility for developing and building serverless applications in Google Cloud Platform's 
 Cloud Functions in Python.
 
