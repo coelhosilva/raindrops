@@ -2,7 +2,7 @@ import setuptools
 import os
 
 NAME = "raindrops"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = "raindrops is a Python package for developing and building serverless applications in " \
               "Google Cloud Platform's Cloud Functions."
 AUTHOR = "Lucas Coelho e Silva"
@@ -21,7 +21,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/coelhosilva/raindrops.git",
-    download_url="https://github.com/coelhosilva/raindrops/archive/refs/tags/v0.0.1.tar.gz",
+    download_url="https://github.com/coelhosilva/raindrops/archive/refs/tags/v0.0.2.tar.gz",
     packages=setuptools.find_packages(),
     keywordsList=['cloud computing', 'cloud functions', 'build tools'],
     classifiers=[
