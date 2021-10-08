@@ -11,6 +11,7 @@ MAP_TEMPLATE_FILES = {
     'gcloudignore.template': '.gcloudignore',
     'cloud_function_http.template': 'main.py',
     'cloud_function_pubsub.template': 'main.py',
+    'requirements.template': 'requirements.txt'
 }
 COMMONS_TEMPLATE_FILES = [
     'cloudbuild_yaml.template',
